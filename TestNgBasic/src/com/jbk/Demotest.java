@@ -27,10 +27,16 @@ public class Demotest {
 		System.out.println("testcase test02");
 		Assert.assertEquals(1, 2);
 	}
+	
 	@Test
 	public void test03()
 	{
 		System.out.println("testcase test03");
 		throw new SkipException("skipping exception");
+	}
+	public void test04()
+	{
+		System.out.println("testcase test04");
+		Assert.assertEquals(1, 1);
 	}
 }
